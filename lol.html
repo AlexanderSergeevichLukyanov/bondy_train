@@ -1,0 +1,53 @@
+<DOCTYPE html>
+<html lang="ru">
+<head <meta charset="utf-8">
+<title>Данную стр делал профик</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form action="handler.php">
+<p align="justify"><strong>На данной замечательной страничке вы можете зарегаться, куда, нахуя и главный вопрос зачем? А хуй знает, так лук сказал</strong></p>
+<p><strong>Введи ебанное имя(до 15 символов)</strong></p>
+<p><input type="text" pattern="[А-Яа-яЁё]" maxlength="15" size="20" value="вот тут" required>></p>
+<!--p><input </p-->
+<p>Введи ебанную фамилию(до 15 символов)</p>
+<p><input type="text" pattern="[А-Яа-яЁё]"></p>
+<p><input maxlength="15" size="20" value="вот тут"></p>
+<p><strong>Ник сука нейм</strong></p>
+<p><input type="text" pattern="[A-Za-z]"></p>
+<p><input maxlength="15" size="20" value="вот тут" required></p>
+<p><strong>Пароль:</strong></p>
+<p><input id="userPassword" type="password" patter="minlength="5" maxlength="20" size="20" required></p>
+<p><strong>Пароль:</strong></p>
+<p><input id="userPassword" type="password" patter="minlength="5" maxlength="20" size="20" required></p>
+<p>Телефон в формате +7-xxx-xxx-xxxx:</p>
+<p><input type="tel" name="tel" pattern="+7[0-9]{3}-[0-9]{3}[0-9]{4}"></p>
+<p><strong>Email:</strong></p>
+<p><input type="email" name="login" required></p>
+<p><strong>возраст</strong></p>
+<p><input type="text" pattern="[0-99]{1}"></p>
+<p><input maxlength="2" size="2" required></p>
+<p>Дата рождения:</p>
+<p><input type="date" id="date" name="date"></p>
+<p>Пол это лава</p>
+<p><input name="gender" type="radio" value="myzik">Мужик</p>
+<p><input name="gender" type="radio" value="telka">Шалава</p>
+<p><input name="gender" type="radio" value="pidor" checked>Для пидоров</p>
+<p>Семейка</p> <p><input type="checkbox" name="family" value="hz">да хуй знает</p><p><input type="checkbox" name="family" value="pidor"> пидор</p> <p><input type="checkbox" name="family" value="batya">батя</p>
+<p>Статус</p>
+<select name="statys" size="3" form="statysForm">
+
+<option value="dolb" selected>Долбоеб</option>
+<option value="zanat" disabled>Занят</option>
+<option value="svoboden" disabled>Свободен</option>
+<option value="work" disabled>На работе</option>
+</select>
+<p>Скинь сиськи</p>
+<p><input type="file" name="photo" multiple accept="image/*,image/jpeg">
+<p>Расскажи кто по жизни епт</p>
+<p><input type="text"></p>
+<p><input maxlength="100000000" size="10000000000" value="вот тут"></p>
+<input type="submit" value="Отправить"></p>
+</form>
+</body>
+</html>
